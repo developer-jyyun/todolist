@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script type ="module" src="./js/main.js"></script>
+</head>
+<body>
+    <div class="inner">
+        <h1 class="title">to do list </h1>
+
+        <div class="todo_wrap" class="todo_wrap">
+            <form name="frm">
+                <input id="add_con" type="text" placeholder="해야 할 일을 입력해주세요:)">
+                <button type="submit" id="add_btn" onclick="clickBtn();">+</button>
+            </form>
+            <div id="list_wrap" class="list_wrap">
+                <ul class="todo_ul" id="todo_ul"></ul>
+                <h2>완료된 일</h2>
+                <ul id="end_ul"></ul>
+            </div>
+        </div>
+
+    </div>    
+</body>
+</html>
