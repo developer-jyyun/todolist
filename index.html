@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To do list</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script type ="module" src="./js/main.js"></script>
+
+    <style>
+     
+    </style>
+
 </head>
+
 <body>
     <div class="inner">
-        <h1 class="title">to do list </h1>
+     
 
         <div class="todo_wrap" class="todo_wrap">
+            <h1 class="title">
+                🌈<span> T🌞</span> <span>d💗</span> <span>list</span>
+            </h1>
+            <h4 class="msg">🌼 To do list를 완료하여 꽃을 피워주세요 🌼</h4>
             <form name="frm">
                 <input id="add_con" type="text" placeholder="해야 할 일을 입력해주세요:)">
                 <button type="submit" id="add_btn" onclick="clickBtn();">+</button>
             </form>
+            
             <div id="list_wrap" class="list_wrap">
-                <ul class="todo_ul" id="todo_ul"></ul>
-                <h2>완료된 일</h2>
+                <h3>해야할 일</h3>
+                <ul class="todo_ul" id="todo_ul">
+                </ul>
+                <h3>완료된 일</h3>
                 <ul id="end_ul"></ul>
             </div>
+
         </div>
 
-    </div>    
+    </div>
+
+    <script>
+
+
+
+    </script>
+    <script src="./js/main.js"></script>
+
 </body>
+
 </html>
